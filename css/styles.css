@@ -1,0 +1,58 @@
+/*Верхняя линия*/
+
+.logo{
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+span {
+    color: #2196F3;
+}
+
+.nav-list{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+.nav-list .current-link {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.nav-list .link {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-list .link:focus,
+.nav-list .link:hover{
+    color: #2196F3;
+}
+
+.nav-list .link-adress {
+    color: #757575;
+    text-decoration: none;
+}
+
+.nav-list .link-adress:focus,
+.nav-list .link-adress:hover{
+    color: #2196F3;
+
+/*Шапка*/
+
+
+
+/*Особенности*/
+
+/*Чем мы занимаемся*/
+
+/*Наша команда*/
