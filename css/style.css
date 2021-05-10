@@ -1,0 +1,151 @@
+/*Верхняя линия*/
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+
+.logo{
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.first-word {
+    color: #2196F3;
+}
+
+.current-nav-link {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-link:focus,
+.nav-link:hover{
+    color: #2196F3;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.link {
+    color: #757575;
+    text-decoration: none;
+}
+
+.link:focus,
+.link:hover {
+    color: #2196F3;
+}
+
+/*Шапка*/
+
+.section {
+    background-color: #2F303A;
+}
+
+.title {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/*Особенности*/
+
+.features {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.subject {
+    visibility: hidden;
+}
+
+.caption {
+    font-weight: 700;
+    line-height: 1,14;
+    color: #212121;
+}
+ 
+/*Наша команда*/
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.heading {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.desc {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.text {
+    font-weight: 400;
+    color: #757575;
+}
+
+/*Футер*/
+
+.second-word {
+    color: #FFFFFF;
+}
+
+.item {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+ 
