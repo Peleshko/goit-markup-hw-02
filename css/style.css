@@ -1,6 +1,7 @@
 :root {
     --accent-color:#2196F3;
     --white-text-color: #FFFFFF;
+    --black-text-color: #212121;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-link {
-    color: #212121;
+    color: var(--black-text-color);
     text-decoration: none;
 }
 
@@ -104,7 +105,7 @@ body {
 .caption {
     font-weight: 700;
     line-height: 1,14;
-    color: #212121;
+    color: var(--black-text-color);
 }
  
 /*Наша команда*/
@@ -118,15 +119,15 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--black-text-color);
 }
 
 .desc {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--black-text-color);
 }
 
 .text {
@@ -166,3 +167,34 @@ body {
     color: var(--accent-color);
 }
 
+/*Портфолио*/
+
+.filter-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--black-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    border-color: currentColor;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.portfolio-desc {
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1,88;
+    letter-spacing: 0.03em;
+}
