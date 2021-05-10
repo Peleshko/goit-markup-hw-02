@@ -1,7 +1,16 @@
+:root {
+    --accent-color:#2196F3;
+    --white-text-color: #FFFFFF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #757575;
+}
+
 /*Верхняя линия*/
 
 .header {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -19,11 +28,11 @@
 }
 
 .first-word {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .current-nav-link {
-    color: #2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
@@ -34,7 +43,7 @@
 
 .nav-link:focus,
 .nav-link:hover{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .items {
@@ -42,13 +51,13 @@
 }
 
 .link {
-    color: #757575;
     text-decoration: none;
+    color: #757575;
 }
 
 .link:focus,
 .link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /*Шапка*/
@@ -58,32 +67,34 @@
 }
 
 .title {
-    font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 
 .button {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
 }
 
 /*Особенности*/
 
 .features {
-    font-family: Roboto;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
 }
 
 .subject {
@@ -103,7 +114,6 @@
 }
 
 .heading {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -112,7 +122,6 @@
 }
 
 .desc {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -122,17 +131,15 @@
 
 .text {
     font-weight: 400;
-    color: #757575;
 }
 
 /*Футер*/
 
 .second-word {
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 
 .item {
-    font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -140,8 +147,13 @@
 }
 
 .adress-link {
-    color: #FFFFFF;
+    color: var(--white-text-color);
     text-decoration: none;
+}
+
+.adress-link:focus,
+.adress-link:hover {
+    color: var(--accent-color);
 }
 
 .contact-link {
@@ -149,3 +161,8 @@
     text-decoration: none;
 }
  
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
