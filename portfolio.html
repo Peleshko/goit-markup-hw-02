@@ -11,17 +11,31 @@
 </head>
 
 <body>
+
     <!-- Верхняя линия -->
+
     <header class="header">
-        <a class="logo" href=""><span class="first-word">Web</span>Studio</a>
-        <nav>
-            <a class="nav-link" href="index.html">Студия</a>
-            <a class="nav-link current" href="card.html">Портфолио</a>
-            <a class="nav-link" href="">Контакты</a>
+        <nav class="navigation">
+            <a class="logo link" href=""><span class="first-word">Web</span>Studio</a>
+            <ul class="menu list"> 
+                <li class="menu-item">
+                    <a class="menu-link link" href="index.html">Студия</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link current" href="portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="">Контакты</a>
+                </li>   
+            </ul>
         </nav>
-        <ul class="filter">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="menu list">
+            <li>
+              <a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
         </ul>
        
     </header>
@@ -32,12 +46,12 @@
 
         <section>
             <h1>Портфолио</h1>
-            <ul class="filter">
-                <li><button  class="filter-button" type="button">Все</button></li>
-                <li><button  class="filter-button" type="button">Веб-сайты</button></li>
-                <li><button  class="filter-button" type="button">Приложения</button></li>
-                <li><button  class="filter-button" type="button">Дизайн</button></li>
-                <li><button  class="filter-button" type="button">Маркетинг</button></li>
+            <ul class="list">
+                <li><button  class="portfolio-button" type="button">Все</button></li>
+                <li><button  class="portfolio-button" type="button">Веб-сайты</button></li>
+                <li><button  class="portfolio-button" type="button">Приложения</button></li>
+                <li><button  class="portfolio-button" type="button">Дизайн</button></li>
+                <li><button  class="portfolio-button" type="button">Маркетинг</button></li>
             </ul>
         <!-- Портфолио -->
 
@@ -93,12 +107,18 @@
 
     <!-- Футер -->
     <footer class="section">
-        <a class="logo" href=""><span class="first-word">Web</span><span class="second-word">Studio</span></a>
+        <a class="logo link" href=""><span class="first-word">Web</span><span class="second-word">Studio</span></a>
         <address>
-            <ul class="filter">
-                <li class="item"><a class="adress-link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="item"><a class="contact-link" href="mailto:info@example.com">info@example.com</a></li>
-                <li class="item"><a class="contact-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <ul class="list">
+                <li class="address-item">
+                    <a class="adress-link" href="">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class="address-item">
+                    <a class="contact-link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="address-item">
+                    <a class="contact-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
             </ul>
         </address>
     </footer>
